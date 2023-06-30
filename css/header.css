@@ -6,21 +6,33 @@ header {
   height: 40px;
   padding-bottom: 10px;
   margin-bottom: 200px;
+  margin-top: 10px;
 }
 
-.menu-bar__img {
+.main-title {
+  font-size: 40px;
+  margin-left: 10%;
+}
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar__left {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
-.setting__img {
+.menu-bar__right {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30px;
+  margin-right: 10px;
 }
 
 .save {
