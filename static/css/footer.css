@@ -24,6 +24,9 @@ footer {
   background-color: #d3d6da;
   border-radius: 6px;
   cursor: pointer;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .keyboard-block__wide {
@@ -34,6 +37,7 @@ footer {
   height: 60px;
   font-size: 13px;
   background-color: #d3d6da;
+  border: none;
   border-radius: 6px;
   cursor: pointer;
 }
